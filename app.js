@@ -6,7 +6,7 @@
    3) заповнюють config/config.json (UPPERCASE ключі)
    ========================================================= */
 
-const CONFIG_PATH = "./config/config.json";
+const CONFIG_PATH = "config/config.json";
 
 /** Утиліта: безпечний доступ до DOM */
 const $ = (sel) => document.querySelector(sel);
